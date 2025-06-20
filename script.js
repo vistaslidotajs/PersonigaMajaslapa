@@ -1,2 +1,4 @@
-const gads = new Date().getFullYear();
-document.getElementById("copyright").innerHTML = `&copy; ${gads} Filips Bībers`;
+window.onload = function() {
+  const gads = new Date().getFullYear();
+  document.getElementById("copyright").innerHTML = `&copy; ${gads} Filips Bībers`;
+};
